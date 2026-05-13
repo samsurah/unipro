@@ -1,0 +1,19 @@
+I have built a "Hyper-Personalized Marketing Copy and Image Generator" (Agency-in-a-Box).
+Architecture:
+- FastAPI backend with 4 main services: Segmentation (K-Means), Copywriting (GPT-4o), Image Generation (DALL-E 3), and Optimization (Thompson Sampling).
+- React frontend with Tailwind 4.
+- Integration: Full loop from CSV upload to A/B testing simulation.
+
+Please review the following files:
+- backend/main.py
+- backend/services/segmentation.py
+- backend/services/copywriting.py
+- backend/services/image_gen.py
+- backend/services/optimization.py
+- frontend/src/App.jsx
+
+Focus on:
+1. Robustness of the AI chaining.
+2. Error handling for API failures (OpenAI).
+3. Security (CORS, file handling).
+4. Performance/Optimizations.

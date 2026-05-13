@@ -1,0 +1,8 @@
+node_modules/
+__pycache__/
+*.pyc
+frontend/dist/
+backend_output.log
+frontend_output.log
+*.png
+.env
